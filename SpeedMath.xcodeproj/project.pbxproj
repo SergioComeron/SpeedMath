@@ -12,6 +12,7 @@
 		1B88527B2439F0AF001554AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B88527A2439F0AF001554AC /* Assets.xcassets */; };
 		1B88527E2439F0AF001554AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B88527D2439F0AF001554AC /* Preview Assets.xcassets */; };
 		1B8852812439F0AF001554AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B88527F2439F0AF001554AC /* Main.storyboard */; };
+		1B88528A2439F959001554AC /* TypingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8852892439F959001554AC /* TypingWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		1B8852802439F0AF001554AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B8852822439F0AF001554AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B8852832439F0AF001554AC /* SpeedMath.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeedMath.entitlements; sourceTree = "<group>"; };
+		1B8852892439F959001554AC /* TypingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		1B8852752439F0AE001554AC /* SpeedMath */ = {
 			isa = PBXGroup;
 			children = (
+				1B8852892439F959001554AC /* TypingWindow.swift */,
 				1B8852762439F0AE001554AC /* AppDelegate.swift */,
 				1B8852782439F0AE001554AC /* ContentView.swift */,
 				1B88527A2439F0AF001554AC /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B88528A2439F959001554AC /* TypingWindow.swift in Sources */,
 				1B8852792439F0AE001554AC /* ContentView.swift in Sources */,
 				1B8852772439F0AE001554AC /* AppDelegate.swift in Sources */,
 			);
