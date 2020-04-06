@@ -21,9 +21,15 @@ struct Question{
     init() {
         let left = Int.random(in: 1...10)
         let right = Int.random(in: 1...10)
+        let center = ["+", "×"].randomElement()
         
-        text = "\(left) + \(right) = "
-        actualAnswer = "\(left + right)"
+        if (center == "+") {
+            text = "\(left) + \(right) = "
+            actualAnswer = "\(left + right)"
+        } else {
+            text = "\(left) × \(right) = "
+            actualAnswer = "\(left * right)"
+        }
         
         if left < 10 {
             paddingAmount += 1

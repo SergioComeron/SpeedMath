@@ -15,7 +15,7 @@ extension Notification.Name {
 }
 class TypingWindow: NSWindow {
     override func keyDown(with event: NSEvent) {
-        if event.keyCode == 51 {
+        if event.keyCode == 51 || event.keyCode == 71{
             NotificationCenter.default.post(name: .removeNumber, object: nil)
         } else if event.keyCode == 36 {
             NotificationCenter.default.post(name: .submitAnswer, object: nil)
